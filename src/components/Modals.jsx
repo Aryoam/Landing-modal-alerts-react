@@ -1,6 +1,5 @@
 import { useModal } from "../hooks/useModal";
 import Modal from "./Modal";
-import "animate.css";
 import NpmLogo from "../img/npmLogo.png";
 import LinkedIn from "../img/linkedin.png";
 import GithubComplete from "../img/githubComplete.png";
