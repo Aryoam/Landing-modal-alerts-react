@@ -2,6 +2,8 @@
 
 Customizable alert modals for react
 
+![Demo](https://i.imgur.com/RGY8W99.png)
+
 ## Installation
 
 Install Modal Alerts for React with npm
