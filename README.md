@@ -2,6 +2,7 @@
 
 Customizable alert modals for react
 
+[LANDING PAGE DEMO](https://landing-modal-alerts-react.vercel.app/)
 ![Demo](https://i.imgur.com/RGY8W99.png)
 
 ## Installation
