@@ -1,0 +1,124 @@
+body {
+  font-family: sans-serif;
+  background-image: linear-gradient(to right, #38bdf8, #6366f1);
+  margin: 0;
+}
+
+.modal {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal.isOpen {
+  display: flex;
+}
+
+.containerModal {
+  position: relative;
+  width: 481px;
+  min-height: 246px;
+  max-height: 700px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 29px 25px 29px 25px;
+  text-align: center;
+  animation-name: modal;
+  animation-duration: 1s;
+  box-shadow: 0 10px 20px rgba(black, 1);
+}
+
+@keyframes modal {
+  from {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  to {
+    background-color: rgba(255, 255, 255, 1);
+  }
+}
+
+.closeModal {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 10px;
+}
+
+.closeModal:hover {
+  cursor: pointer;
+}
+
+.iconAlert {
+  width: 96px;
+  height: 96px;
+}
+
+.titleModal {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.containerBody {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+.containerBody h2 {
+  text-align: center;
+  margin-top: 0;
+  color: white;
+  font-size: 40px;
+}
+
+.containerBody div {
+}
+
+.buttons {
+  padding: 0.25rem;
+  background-color: rgb(30 58 138/0.2);
+  border-radius: 0.75rem;
+  display: flex;
+  width: 700px;
+}
+
+.buttons .button {
+  color: rgb(29 78 216/1);
+  line-height: 1.25rem;
+  font-weight: 500;
+  font-size: 1rem;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+  background-color: rgb(255 255 255/1);
+  border-radius: 0.5rem;
+  width: 100%;
+  cursor: pointer;
+  text-align: center;
+  --tw-shadow: 0 1px 3px 0rgb (0 0 0/0.1), 0 1px 2px -1px rgb(0 0 0/0.1);
+  --tw-shadow-colored: 0 1px 3px 0var (--tw-shadow-color),
+    0 1px 2px -1px var(--tw-shadow-color);
+}
+
+.buttons .button:nth-child(2) {
+  margin: 0 30px;
+}
+
+.containerlogo {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.containerlogo img {
+  margin-bottom: 30px;
+  height: 50px;
+}
