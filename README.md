@@ -12,6 +12,8 @@ Install Modal Alerts for React with npm
 
 ## Demo
 
+[LANDING PAGE DEMO](https://landing-modal-alerts-react.vercel.app/)
+
 ![Logo](https://i.imgur.com/GOh1mpu.png)
 
 ![Logo](https://i.imgur.com/hVTCNn5.png)
