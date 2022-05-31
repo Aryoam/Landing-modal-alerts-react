@@ -87,7 +87,7 @@ const Modals = () => {
         </div>
       </div>
       <div className="footer animate__animated animate__fadeInUp">
-        <p className="textFooter">Aryoam Navas© 2022</p>
+        <p className="textFooter">© Aryoam Navas 2022</p>
         <a href="https://www.linkedin.com/in/aryoam-navas/" target="_blank">
           <img src={linkedinLogo} alt="logo Linkedin" />
         </a>
